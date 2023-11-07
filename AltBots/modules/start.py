@@ -12,7 +12,7 @@ START_BUTTON = [
         Button.url("🌸 𝚂𝚞𝚙𝚙𝚘𝚛𝚃 🌸", "https://t.me/+PfRardqZ41U1MTg1")
     ],
     [
-        Button.url("💖⏤͟͟͢͞͞🇩𝗙𝗦⚔️「𝙈𝙊𝙊𝙉💖", "https://t.me/moon_m_6")
+        Button.url("💖⏤͟͟͢͞͞🇩𝗙𝗦⚔️「𝙈𝙊𝙊𝙉💖", "🌸☆𝐌𝐎𝐎𝐍𝐘 𝐎𝐏☆🌸")
 
         
     ]
