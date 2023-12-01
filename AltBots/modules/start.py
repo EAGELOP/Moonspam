@@ -12,7 +12,7 @@ START_BUTTON = [
         Button.url("🌸 𝚂𝚞𝚙𝚙𝚘𝚛𝚃 🌸", "https://t.me/+PfRardqZ41U1MTg1")
     ],
     [
-        Button.url("💖⏤͟͟͢͞͞🇩𝗙𝗦⚔️「𝙈𝙊𝙊𝙉💖", "https://t.me/moon_m_6")
+        Button.url("💖𓄂➻❰ 𝐒𝐍𝐗™❱┼ꭙ‌⚡️「𝐌𝓞𝓞𝐍」⚡️💖", "https://t.me/moon_m_6")
 
         
     ]
@@ -36,13 +36,13 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **𝙼𝚢 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : 🌸☆𝐌𝐎𝐎𝐍𝐘 𝐎𝐏☆🌸**\n\n"
+        TEXT += f"» **𝙼𝚢 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : 𓄂➻❰ 𝐒𝐍𝐗™❱┼ꭙ‌⚡️「𝐌𝓞𝓞𝐍」⚡️**\n\n"
         TEXT += f"» **𝙱𝙾𝚃𝚂 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 :** `M3.3`\n"
         TEXT += f"» **𝙿𝚈𝚃𝙷𝙸𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 :** `3.11.3`\n"
         TEXT += f"» **MOON ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://telegra.ph/file/4d9e3069780a60b988b53.jpg",
+                    "https://telegra.ph/file/d557c20c6054491d2c20a.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
