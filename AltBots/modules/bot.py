@@ -21,10 +21,10 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"» __™°‌ 🫧 ☆𝐌𝐎𝐎𝐍𝐘 𝐎𝐏☆ 𝐌𝐎𝐎𝐍 𝐀𝐀 𝐆𝐀𝐘𝐀 𝐁𝐀𝐓𝐀𝐎 𝐊𝐈𝐒𝐒𝐄 𝐋𝐀𝐃𝐍𝐀 𝐇𝐀𝐈 ?__")
+        altron = await e.reply(f"» __™°‌ 🫧 💗★𝐏𝐲𝐚𝐫𝐚 𝐏𝐲𝐚𝐫𝐚 ★ 𝐂𝐮𝐭𝐞 𝐂𝐮𝐭𝐞 ★ 𝐌𝐚𝐬𝐨𝐨𝐦 𝐬𝐚 𝐌𝐨𝐨𝐧 𝐀𝐚𝐚 𝐆𝐚𝐲𝐚★💗⚡️__")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"💫🥀 🫧 ☆𝐌𝐎𝐎𝐍𝐘 𝐎𝐏☆ 𝐌𝐎𝐎𝐍 𝐀𝐀 𝐆𝐀𝐘𝐀 𝐁𝐀𝐓𝐀𝐎 𝐊𝐈𝐒𝐒𝐄 𝐋𝐀𝐃𝐍𝐀 𝐇𝐀𝐈 ?\n» `{mp} 𝙼𝚂`")
+        await altron.edit(f"💫🥀 🫧 💗★𝐏𝐲𝐚𝐫𝐚 𝐏𝐲𝐚𝐫𝐚 ★ 𝐂𝐮𝐭𝐞 𝐂𝐮𝐭𝐞 ★ 𝐌𝐚𝐬𝐨𝐨𝐦 𝐬𝐚 𝐌𝐨𝐨𝐧 𝐀𝐚𝐚 𝐆𝐚𝐲𝐚★💗⚡️\n» `{mp} 𝙼𝚂`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"» __𝙰𝙳𝙳𝙸𝙽𝙶 𝚄𝚂𝙴𝚁 𝙰𝚂 𝐌𝐎𝐎𝐍 💘𝚂𝚄𝙳𝙾💘...__🚀🚀")
+        ok = await event.reply(f"» __💗★ Tum New Masoom bache banane ja rhe....Tumko sudo mil gaya ★💗...__🚀🚀")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -117,7 +117,7 @@ async def addsudo(event):
             return
 
         if str(target) in sudousers:
-            await ok.edit("» 🌸𝚃𝙷𝙸𝚂 𝚄𝚂𝙴𝚁 𝙸𝚂 𝙰𝙻𝚁𝙴𝙰𝙳𝚈 𝙰 𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁 𝙾𝙵 𝐌𝐎𝐎𝐍 𝙱𝙾𝚃𝚂🌸 !!")
+            await ok.edit("» ★Tum Mere Hi Masoom Se Bache ho ★ Tumhare pass sudo hai ★✨⚡️ !!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
