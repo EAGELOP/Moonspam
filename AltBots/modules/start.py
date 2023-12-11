@@ -42,7 +42,7 @@ async def start(event):
         TEXT += f"» **𝐌𝐎𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://telegra.ph/file/d557c20c6054491d2c20a.jpg",
+                    "https://telegra.ph/file/ea94399e5247ab166f0e2.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
