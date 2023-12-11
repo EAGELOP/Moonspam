@@ -1,6 +1,6 @@
 {
-    "name": "™°‌ 🫧 ☆𝐌𝐎𝐎𝐍𝐘 𝐎𝐏☆.",
-    "logo": "https://telegra.ph/file/d557c20c6054491d2c20a.jpg",
+    "name": "™°‌ 🫧 💘𝔼𝕒𝕘𝕝𝕖 𝕠𝕡 ❤️.",
+    "logo": "https://telegra.ph/file/ea94399e5247ab166f0e2.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/Moonshining6/ALSPAM",
+    "repository": "https://github.com/EAGELOP/Moonspam",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
